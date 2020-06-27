@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;}
+
+
+
+.center{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.amarillo{
+    background-color:rgb(111, 111, 240);
+    height: 250px;
+}
+.azul{
+    background-color:rgb(91, 209, 224);
+    height: 250px;
+}
+.rojo{
+    background-color:palevioletred;
+    height: 250px;
+}
+p{
+    color:black;
+    font-family:Bodoni MT Black;
+
+}
+h1{
+    color:black;
+   font-family:Bodoni MT Black;
+
+}
+
+
+
+#contenedor{
+    
+width: 400px;
+margin: 30px auto;
+overflow: hidden;
+
+}
+#contenedor ul{
+    list-style: none;
+    width: 1200px;
+    display: flex;
+    overflow: hidden;
+
+animation:slide 20s infinite;}
+@keyframes slide{
+    0% { margin-left: 0px;}
+    20% { margin-left: 0px;}
+    25% { margin-left: -400px;}
+    45% { margin-left: -400px;}
+    50% { margin-left: -800px;}
+    70% { margin-left: -800px;}
+    75% { margin-left: -1200px;}
+    75% { margin-left: -1200px;}
+}
+
+}
+#tiempo{
+		animation-delay:3s;}#tiempo1{
+			animation-delay: 0.1s;
+		}
+		#tiempo1{
+			animation-delay: 3s;
+		}
+		#tiempo2{
+			animation-delay: 3.5s;
